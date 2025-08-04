@@ -1,0 +1,58 @@
+.main{
+    width: 100%;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:start;
+    flex-direction:column;
+    padding:10px;
+    gap: 2px;
+} 
+
+#shifra{
+    height:65%;
+}
+
+span{
+    
+    background:linear-gradient(to right, #f7c4e7, #f7c4f5);
+    font-size: 2vmax;
+    background-clip: text;
+    color:transparent;
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    font-size:20px;
+    border-radius:20px;
+    border: none;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 50px ;
+}
+
+#speak{
+    width: 50px;
+}
+p{
+    font-size: 1.5vmax;
+    color: antiquewhite;
+}
+
+.response{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+#aigif{
+    width: 50vh;
+    height: 100px;
+}
